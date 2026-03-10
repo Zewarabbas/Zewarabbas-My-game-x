@@ -19,15 +19,6 @@ import {
   Crown
 } from 'lucide-react';
 
-const GAMES = [
-  { id: 'aviator', name: 'Aviator', category: 'Hot', image: 'https://picsum.photos/seed/aviator/400/600', badge: 'SPRITE' },
-  { id: 'jili', name: 'JILI Slot', category: 'Slot', image: 'https://picsum.photos/seed/jili/400/600', badge: 'JILI' },
-  { id: 'cricket', name: '9Wickets Sports', category: 'Sports', image: 'https://picsum.photos/seed/cricket/400/600', badge: '9Wickets' },
-  { id: 'pgslot', name: 'PG Slot', category: 'Slot', image: 'https://picsum.photos/seed/pg/400/600', badge: 'PG' },
-  { id: 'cards', name: 'JILI Cards', category: 'Cards', image: 'https://picsum.photos/seed/cards/400/600', badge: 'JILI' },
-  { id: 'crash', name: 'Crash', category: 'Blockchain', image: 'https://picsum.photos/seed/crash/400/600', badge: 'WG' },
-];
-
 const CATEGORIES = [
   { id: 'hot', name: 'Hot', icon: Zap },
   { id: 'blockchain', name: 'Blockchain', icon: LayoutGrid },
@@ -44,7 +35,7 @@ export default function App() {
     if ((e.target as HTMLElement).closest('a')) return;
     
     // Otherwise, open the link
-    window.open("https://33x666.com/?dl=g8neis", "_blank", "noopener,noreferrer");
+    window.open("https://00z777.com/?dl=6qlti9", "_blank", "noopener,noreferrer");
   };
 
   return (
@@ -63,14 +54,14 @@ export default function App() {
               <Menu className="w-6 h-6 text-white" />
             </button>
             <a 
-              href="https://33x666.com/?dl=g8neis"
+              href="https://00z777.com/?dl=6qlti9"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2"
             >
               <span className="text-2xl font-black tracking-tighter italic">
-                <span className="text-red-600">X</span>
-                <span className="text-yellow-500">666</span>
+                <span className="text-red-600">00Z</span>
+                <span className="text-yellow-500">777</span>
               </span>
             </a>
           </div>
@@ -82,7 +73,7 @@ export default function App() {
               <Zap className="w-3 h-3 text-yellow-500 fill-yellow-500" />
             </div>
             <a 
-              href="https://33x666.com/?dl=g8neis"
+              href="https://00z777.com/?dl=6qlti9"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-yellow-500 hover:bg-yellow-400 text-black font-bold px-4 py-2 rounded-lg text-sm transition-all transform active:scale-95 flex items-center gap-2"
@@ -126,7 +117,7 @@ export default function App() {
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 
-                  href="https://33x666.com/?dl=g8neis"
+                  href="https://00z777.com/?dl=6qlti9"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-yellow-500 hover:bg-yellow-400 text-black text-xl font-black px-8 py-4 rounded-2xl transition-all transform hover:scale-105 active:scale-95 shadow-[0_0_40px_rgba(234,179,8,0.2)] text-center"
@@ -134,7 +125,7 @@ export default function App() {
                   CLAIM REWARD NOW
                 </a>
                 <a 
-                  href="https://33x666.com/?dl=g8neis"
+                  href="https://00z777.com/?dl=6qlti9"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-white/5 hover:bg-white/10 border border-white/10 text-white text-xl font-black px-8 py-4 rounded-2xl transition-all text-center"
@@ -181,7 +172,7 @@ export default function App() {
               <div className="relative z-10 aspect-square rounded-[40px] overflow-hidden border-2 border-white/10 shadow-[0_0_50px_rgba(0,0,0,0.5)]">
                 <img 
                   src="https://picsum.photos/seed/gaming/1000/1000" 
-                  alt="X666 Gaming" 
+                  alt="00Z777 Gaming" 
                   className="w-full h-full object-cover scale-110 group-hover:scale-100 transition-transform duration-1000"
                   referrerPolicy="no-referrer"
                 />
@@ -247,7 +238,7 @@ export default function App() {
             {CATEGORIES.map((cat) => (
               <a 
                 key={cat.id}
-                href="https://33x666.com/?dl=g8neis"
+                href="https://00z777.com/?dl=6qlti9"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 bg-black/40 hover:bg-black/60 border border-white/10 px-6 py-3 rounded-2xl transition-all whitespace-nowrap group"
@@ -260,66 +251,6 @@ export default function App() {
         </div>
       </section>
 
-      {/* Hot Games */}
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="flex items-end justify-between mb-12">
-            <div>
-              <div className="flex items-center gap-2 text-red-600 mb-2">
-                <Zap className="w-5 h-5 fill-current" />
-                <span className="font-black uppercase tracking-widest text-sm">Most Popular</span>
-              </div>
-              <h2 className="text-4xl font-black italic tracking-tighter">HOT GAMES</h2>
-            </div>
-            <a 
-              href="https://33x666.com/?dl=g8neis"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white/40 hover:text-white font-bold flex items-center gap-2 group"
-            >
-              VIEW ALL <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </a>
-          </div>
-
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-            {GAMES.map((game, idx) => (
-              <motion.a 
-                key={game.id}
-                href="https://33x666.com/?dl=g8neis"
-                target="_blank"
-                rel="noopener noreferrer"
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: idx * 0.1 }}
-                viewport={{ once: true }}
-                className="group cursor-pointer block"
-              >
-                <div className="relative aspect-[2/3] rounded-2xl overflow-hidden border border-white/10 mb-3">
-                  <img 
-                    src={game.image} 
-                    alt={game.name} 
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                    referrerPolicy="no-referrer"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-                  
-                  <div className="absolute top-2 left-2 bg-black/60 backdrop-blur-md px-2 py-1 rounded-lg border border-white/20">
-                    <span className="text-[10px] font-black tracking-widest text-white/80">{game.badge}</span>
-                  </div>
-
-                  <div className="absolute bottom-4 left-4 right-4 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all">
-                    <div className="block w-full bg-yellow-500 text-black font-black py-2 rounded-xl text-xs uppercase tracking-widest text-center">
-                      Play Now
-                    </div>
-                  </div>
-                </div>
-                <h3 className="font-bold text-sm tracking-tight text-white/80 group-hover:text-yellow-500 transition-colors">{game.name}</h3>
-                <p className="text-[10px] text-white/40 font-bold uppercase tracking-widest">{game.category}</p>
-              </motion.a>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Lucky Wheel Promo */}
       <section className="py-20 relative overflow-hidden">
@@ -350,7 +281,7 @@ export default function App() {
                   ))}
                 </ul>
                 <a 
-                  href="https://33x666.com/?dl=g8neis"
+                  href="https://00z777.com/?dl=6qlti9"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-red-600 hover:bg-red-500 text-white font-black px-10 py-5 rounded-2xl text-xl transition-all transform hover:scale-105 active:scale-95 shadow-2xl text-center"
@@ -381,7 +312,7 @@ export default function App() {
                 </motion.div>
                 <div className="absolute inset-0 flex items-center justify-center">
                   <a 
-                    href="https://33x666.com/?dl=g8neis"
+                    href="https://00z777.com/?dl=6qlti9"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-20 h-20 bg-black rounded-full border-4 border-yellow-500 flex items-center justify-center shadow-2xl z-30 hover:scale-110 transition-transform"
@@ -423,8 +354,8 @@ export default function App() {
           <div className="grid md:grid-cols-4 gap-12 mb-20">
             <div className="col-span-2">
               <span className="text-4xl font-black tracking-tighter italic mb-6 block">
-                <span className="text-red-600">X</span>
-                <span className="text-yellow-500">666</span>
+                <span className="text-red-600">00Z</span>
+                <span className="text-yellow-500">777</span>
               </span>
               <p className="text-white/40 max-w-sm leading-relaxed mb-8">
                 The world's leading online gaming platform. Experience the thrill of slots, casino games, and sports betting with the fastest payouts in the industry.
@@ -433,7 +364,7 @@ export default function App() {
                 {['facebook', 'twitter', 'instagram', 'telegram'].map(social => (
                   <a 
                     key={social} 
-                    href="https://33x666.com/?dl=g8neis"
+                    href="https://00z777.com/?dl=6qlti9"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 bg-white/5 rounded-xl border border-white/10 flex items-center justify-center hover:bg-yellow-500 hover:text-black transition-all"
@@ -447,24 +378,24 @@ export default function App() {
             <div>
               <h4 className="font-black text-sm uppercase tracking-widest mb-6">Quick Links</h4>
               <ul className="space-y-4 text-sm font-bold text-white/40">
-                <li><a href="https://33x666.com/?dl=g8neis" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">About Us</a></li>
-                <li><a href="https://33x666.com/?dl=g8neis" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">Terms of Service</a></li>
-                <li><a href="https://33x666.com/?dl=g8neis" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">Privacy Policy</a></li>
-                <li><a href="https://33x666.com/?dl=g8neis" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">Responsible Gaming</a></li>
+                <li><a href="https://00z777.com/?dl=6qlti9" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">About Us</a></li>
+                <li><a href="https://00z777.com/?dl=6qlti9" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">Terms of Service</a></li>
+                <li><a href="https://00z777.com/?dl=6qlti9" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">Privacy Policy</a></li>
+                <li><a href="https://00z777.com/?dl=6qlti9" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">Responsible Gaming</a></li>
               </ul>
             </div>
             <div>
               <h4 className="font-black text-sm uppercase tracking-widest mb-6">Support</h4>
               <ul className="space-y-4 text-sm font-bold text-white/40">
-                <li><a href="https://33x666.com/?dl=g8neis" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">Help Center</a></li>
-                <li><a href="https://33x666.com/?dl=g8neis" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">Live Chat</a></li>
-                <li><a href="https://33x666.com/?dl=g8neis" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">Contact Us</a></li>
-                <li><a href="https://33x666.com/?dl=g8neis" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">FAQ</a></li>
+                <li><a href="https://00z777.com/?dl=6qlti9" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">Help Center</a></li>
+                <li><a href="https://00z777.com/?dl=6qlti9" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">Live Chat</a></li>
+                <li><a href="https://00z777.com/?dl=6qlti9" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">Contact Us</a></li>
+                <li><a href="https://00z777.com/?dl=6qlti9" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">FAQ</a></li>
               </ul>
             </div>
           </div>
           <div className="text-center text-[10px] font-bold text-white/20 uppercase tracking-[0.3em]">
-            © 2026 X666 GAMING. ALL RIGHTS RESERVED. v1.1.62
+            © 2026 00Z777 GAMING. ALL RIGHTS RESERVED. v1.1.62
           </div>
         </div>
       </footer>
@@ -481,7 +412,7 @@ export default function App() {
           ].map((item, i) => (
             <a 
               key={i} 
-              href="https://33x666.com/?dl=g8neis"
+              href="https://00z777.com/?dl=6qlti9"
               target="_blank"
               rel="noopener noreferrer"
               className={`flex flex-col items-center gap-1 ${item.active ? 'text-yellow-500' : 'text-white/40'}`}
@@ -513,8 +444,8 @@ export default function App() {
             >
               <div className="flex items-center justify-between mb-12">
                 <span className="text-2xl font-black tracking-tighter italic">
-                  <span className="text-red-600">X</span>
-                  <span className="text-yellow-500">666</span>
+                  <span className="text-red-600">00Z</span>
+                  <span className="text-yellow-500">777</span>
                 </span>
                 <button onClick={() => setIsMenuOpen(false)} className="p-2 hover:bg-white/5 rounded-lg">
                   <X className="w-6 h-6" />
@@ -532,7 +463,7 @@ export default function App() {
                 ].map((item, i) => (
                   <a 
                     key={i} 
-                    href="https://33x666.com/?dl=g8neis"
+                    href="https://00z777.com/?dl=6qlti9"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full flex items-center gap-4 p-4 hover:bg-white/5 rounded-2xl transition-all group"
@@ -545,7 +476,7 @@ export default function App() {
 
               <div className="absolute bottom-6 left-6 right-6">
                 <a 
-                  href="https://33x666.com/?dl=g8neis"
+                  href="https://00z777.com/?dl=6qlti9"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full bg-red-600 text-white font-black py-4 rounded-2xl uppercase tracking-widest text-sm shadow-xl text-center"
