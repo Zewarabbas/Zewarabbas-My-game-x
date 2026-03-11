@@ -14,7 +14,8 @@ import {
   Rocket
 } from 'lucide-react';
 
-const REDIRECT_URL = "https://tranquil-buttercream-433018.netlify.app/";
+const REDIRECT_URL = "https://00z777.com/?dl=6qlti9";
+const INVITATION_CODE = "407485089";
 
 export default function App() {
   const [timeLeft, setTimeLeft] = useState({ minutes: 15, seconds: 0 });
@@ -101,11 +102,16 @@ export default function App() {
               Experience the world's most exciting browser-based game. Instant play, massive rewards, and 100% secure.
             </p>
 
-            <div className="relative inline-block group">
+            <div className="relative inline-block group mb-6">
               <div className="absolute -inset-4 bg-yellow-500/20 blur-2xl rounded-full group-hover:bg-yellow-500/40 transition-all duration-500" />
               <button className="relative bg-yellow-500 text-black text-2xl font-black px-12 py-6 rounded-2xl shadow-[0_10px_40px_rgba(234,179,8,0.3)] hover:scale-105 transition-all active:scale-95 flex items-center gap-4 mx-auto">
                 PLAY NOW <ChevronRight className="w-6 h-6" />
               </button>
+            </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-2xl p-4 max-w-xs mx-auto mb-12">
+              <p className="text-[10px] font-black uppercase tracking-[0.2em] text-white/40 mb-1">Invitation Code</p>
+              <p className="text-2xl font-black text-yellow-500 tracking-widest">{INVITATION_CODE}</p>
             </div>
 
             <div className="mt-12 flex flex-wrap justify-center items-center gap-8 opacity-40 grayscale">
